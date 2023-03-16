@@ -27,6 +27,8 @@ let someOtherStuff = ['green', 'pink', 'purple'];
 primaryColors.sort(); // This sorts an array. :)
 nonPrimaryColors.push('orange'); // Adds a value to
                                  // the end of an array. :)
+
+
 // ********************************************************
 // ARRAYS! ************************************************
   // Accessing Data in Arrays, A Quick Review:                                 
@@ -47,6 +49,7 @@ let studentNames = ['Kobi', 'Mandi', 'Heng'];
 // 3. Putting these 👆 things together, we can write
 //    the full expression in one line, like so:
 //      studentNames[studentNames.length - 1]
+
 
 // ********************************************************
 // LOOPS! *************************************************
@@ -78,9 +81,6 @@ for (let aName of studentNames) {
 for (let i in studentNames) {
   console.log(studentNames[i]);
 }
-
-
-
 
 
 // ********************************************************
